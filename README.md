@@ -1,2 +1,2 @@
 Hello Github, ini adalah repository pertama saya.
-Halo
+aku mengedit file README.txt
