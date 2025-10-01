@@ -1,2 +1,2 @@
-Hello Github, ini adalah repository pertama saya.
-aku mengedit file README.txt
+ini fitur 1
+ini fitur 2
