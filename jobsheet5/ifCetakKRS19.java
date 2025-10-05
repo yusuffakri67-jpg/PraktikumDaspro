@@ -9,6 +9,7 @@ public class ifCetakKRS19 {
         
         System.out.println("--- CETAK KRS SIAKAD ---");
         System.out.println("apakah UKT sudah lunas? (true/false): ");
+        
         boolean uktlunas = sc.nextBoolean();
 
         String hasil = (uktlunas) ? "pembayaran UKT terverifikasi\nsilahkan cetak KRS dan minta tanda tangan dosen DPA" : "pembayaran UKT belum terverifikasi\nsilahkan lunasi pembayaran UKT terlebih dahulu";
