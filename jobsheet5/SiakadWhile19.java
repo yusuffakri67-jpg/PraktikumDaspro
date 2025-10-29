@@ -1,23 +1,26 @@
+
 import java.util.Scanner;
+
 public class SiakadWhile19 {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("masukkan jumlah mahasiswa");
+        System.out.print("masukkan jumlah mahasiswa: ");
         int jml = sc.nextInt();
 
         int i = 0;
         while (i < jml) {
 
-            System.out.println("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
+            System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
             int nilai = sc.nextInt();
             if (nilai < 0 || nilai > 100) {
                 System.out.println("nilai tidak valid. masukkan lagi nilai yang valid");
                 continue;
             }
             if (nilai >= 80 && nilai <= 100) {
-                System.out.println("nilai mahasiswa ke-" + (i + 1) + " adalah A");
+                System.out.println("nilai mahasiswa ke-" + (i + 1) + " adalah A" + " bagus pertahankan nilaimya");
             } else if (nilai >= 73 && nilai < 80) {
                 System.out.println("nilai mahasiswa ke-" + (i + 1) + " adalah B+");
             } else if (nilai >= 65 && nilai < 73) {
@@ -34,5 +37,4 @@ public class SiakadWhile19 {
             i++;
         }
     }
-    
 }
