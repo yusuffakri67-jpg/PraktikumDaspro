@@ -4,7 +4,7 @@ public class implementasiFlowchart19{
         
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("masukkan angka: ");
+        System.out.print("masukkan angka: ");
         int angka = sc.nextInt();
 
         if (angka % 2 == 0){
