@@ -7,7 +7,7 @@ public class ArrayRataNilai19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int[] nilaiMhs = new int[3];
+        int[] nilaiMhs = new int[10];
         double totalLulus = 0;
         double totalTidakLulus = 0;
         int countLulus = 0;
